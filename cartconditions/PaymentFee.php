@@ -16,9 +16,10 @@ class PaymentFee extends CartCondition
         $paymentFeeType = (int)optional($this->paymentModel)->order_fee_type;
         $paymentFee = optional($this->paymentModel)->order_fee;
 
-        return $paymentFeeType === 2
-            ? lang($this->label)." [$paymentFee%]"
-            : lang($this->label);
+        // return $paymentFeeType === 2
+        //     ? lang($this->label)." [$paymentFee%]"
+        //     : lang($this->label);
+        return lang($this->label);
     }
 
     public function beforeApply()

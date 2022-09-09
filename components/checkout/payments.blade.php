@@ -56,11 +56,8 @@
                                     @if ($paymentGateway->hasApplicableFee())
                                         <p class="small fw-normal mb-0">
                                             <em>
-                                                {!! sprintf(
-                                                    lang('igniter.payregister::default.alert_order_fee'),
-                                                    $paymentGateway->getFormattedApplicableFee(),
-                                                    lang('igniter.payregister::default.text_this_payment')
-                                                ) !!}
+                                                {!! "There's a small amount of additional fee when you pay with this payment method"
+                                                 !!}
                                             </em>
                                         </p>
                                     @endif
