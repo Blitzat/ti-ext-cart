@@ -140,7 +140,7 @@ return [
         'label_first_name' => 'First Name',
         'label_last_name' => 'Last Name',
         'label_email' => 'Email',
-        'label_telephone' => 'Telephone',
+        'label_telephone' => 'Telephone <sup><span class="badge badge-info">Optional</span></sup>',
         'label_address' => 'Delivery address',
         'label_address_id' => 'Address Id',
         'label_address_1' => 'Address 1',
